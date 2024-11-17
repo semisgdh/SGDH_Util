@@ -1,0 +1,3 @@
+xvlog ./design/basic_gate.v ./testbench/testbench.v --include ./include
+xelab testbench -s testbench
+xsim testbench -R
